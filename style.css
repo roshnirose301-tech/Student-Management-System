@@ -1,0 +1,165 @@
+```css
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+
+/* Form */
+
+.form-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-box h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    padding: 11px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-right: 8px;
+}
+
+#submitButton {
+    background-color: #28a745;
+    color: white;
+}
+
+#cancelButton {
+    background-color: #6c757d;
+    color: white;
+}
+
+
+/* Search */
+
+.search-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: 100%;
+}
+
+
+/* Table */
+
+.table-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.table-box h2 {
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #343a40;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+    color: black;
+    margin-top: 0;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    margin-top: 0;
+}
+
+#emptyMessage {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    table {
+        min-width: 750px;
+    }
+
+    .table-box {
+        overflow-x: auto;
+    }
+
+}
+```
